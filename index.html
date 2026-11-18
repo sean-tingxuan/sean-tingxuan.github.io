@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tingxuan Huang | Research Portfolio</title>
+
+  <meta name="description" content="Personal research profile and portfolio of Tingxuan Huang, focusing on 3D reconstruction, geometric vision, and generative 3D.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #fafbfc;
+      color: #202b3c;
+      font-family: Inter, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", sans-serif;
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(960px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 30px 0;
+      border-bottom: 1px solid #e5e9ef;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+    }
+
+    .hero {
+      padding: 65px 0 50px;
+    }
+
+    .eyebrow {
+      color: #64748b;
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      font-weight: 600;
+    }
+
+    h1 {
+      margin: 12px 0;
+      font-size: clamp(36px, 6vw, 48px);
+      letter-spacing: -1.5px;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      color: #475569;
+      font-size: 18px;
+      margin: 15px 0;
+    }
+
+    .bio {
+      max-width: 740px;
+      color: #586579;
+      font-size: 15px;
+    }
+
+    .interests {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 25px;
+    }
+
+    .tag {
+      padding: 5px 12px;
+      background: #edf1f6;
+      border-radius: 4px;
+      color: #40516b;
+      font-size: 12px;
+    }
+
+    .portfolio {
+      padding: 35px 0 60px;
+      border-top: 1px solid #e5e9ef;
+    }
+
+    h2 {
+      font-size: 23px;
+      letter-spacing: -0.4px;
+      margin-bottom: 5px;
+    }
+
+    .description {
+      color: #778397;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 20px 0;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 9px 18px;
+      font-size: 13px;
+      border-radius: 4px;
+      background: #263a56;
+      color: #fff;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: #263a56;
+      border: 1px solid #cbd5e1;
+    }
+
+    .pdf-viewer {
+      width: 100%;
+      height: 1000px;
+      border: 1px solid #dce2e9;
+      border-radius: 5px;
+      background: #fff;
+    }
+
+    footer {
+      border-top: 1px solid #e5e9ef;
+      padding: 25px 0 35px;
+      color: #94a3b8;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        padding: 45px 0 35px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      .pdf-viewer {
+        height: 720px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      TINGXUAN HUANG
+      <span style="float:right;color:#94a3b8">
+        RESEARCH PORTFOLIO
+      </span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+
+      <div class="eyebrow">
+        PERSONAL ACADEMIC PROFILE
+      </div>
+
+      <h1>Tingxuan Huang</h1>
+
+      <div class="subtitle">
+        3D Reconstruction · Geometric Vision · 3D Generation
+      </div>
+
+      <p class="bio">
+        Algorithm Engineer working on stereo and laser-based
+        3D reconstruction, geometric vision, and efficient
+        vision systems. My research interests lie in connecting
+        reliable geometric observations with learned 3D
+        representations and generative methods.
+      </p>
+
+      <div class="interests">
+        <span class="tag">Stereo & Laser-based 3D Reconstruction</span>
+        <span class="tag">Geometric Vision</span>
+        <span class="tag">Geometry-Grounded 3D Generation</span>
+      </div>
+
+    </section>
+
+    <section class="portfolio">
+
+      <h2>Research Portfolio</h2>
+
+      <div class="description">
+        SELECTED RESEARCH & ENGINEERING PROJECTS
+      </div>
+
+      <div class="actions">
+
+        <a class="button"
+           href="portfolio.pdf"
+           target="_blank"
+           rel="noopener">
+          Open Portfolio ↗
+        </a>
+
+        <a class="button secondary"
+           href="portfolio.pdf"
+           download>
+          Download PDF ↓
+        </a>
+
+      </div>
+
+      <iframe
+        class="pdf-viewer"
+        src="portfolio.pdf#view=FitH"
+        title="Tingxuan Huang Research Portfolio">
+      </iframe>
+
+      <p class="description">
+        Having trouble viewing the document?
+        <a href="portfolio.pdf">Open the PDF directly.</a>
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Tingxuan Huang
+  </footer>
+
+</body>
+</html>
